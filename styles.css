@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Lemon&display=swap');
 
 :root {
-  --verde-grama: #7CFC00;
+  --laranja: #FF862A;
   --preto: #000;
   --branco: #fff;
-  --amarelo-canário: #ffd700;
+  --amarelo: #ffd700;
 }
 
 body {
@@ -20,12 +20,12 @@ section {
 }
 
 .nav-link {
-  color: #7CFC00;
+  color: #CB6D43;
   font-weight: 600;
 }
 
 .inicio-fundo {
-  background: url('img/galo.png') right/cover no-repeat;
+  background: url('img/4965007.jpg') right/cover no-repeat;
   border-radius: 80px;
   width: 100%;
   height: 606px;
@@ -60,15 +60,15 @@ section {
   text-shadow: -5px 5px var(--laranja);
 }
 
-#capoeira {
+#tropicalia {
   position: relative;
   padding-top: 5rem;
   margin: 3rem 0;
-  background: url('img/Tubarão.png') top right no-repeat, url('img/Triceratops.png') bottom left no-repeat;
+  background: url('img/flor.png') top right no-repeat, url('img/flor-esquerda.png') bottom left no-repeat;
   background-size: 180px;
 }
 
-#capoeira .container {
+#tropicalia .container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,7 +79,7 @@ section {
 h2 {
   font-family: 'Lemon', serif;
   font-size: 2.5em;
-  color: var(--verde-grama);
+  color: var(--laranja);
 }
 
 #galeria {
@@ -87,12 +87,12 @@ h2 {
 }
 
 .fundo-galeria {
-  background: url('img/Velociraptor.png') bottom right no-repeat;
+  background: url('img/flor-bottom-direita.png') bottom right no-repeat;
   background-size: 180px;
 }
 
 #contato {
-  background: url('img/cachorro.png') cover no-repeat;
+  background: url('img/4965007.jpg') cover no-repeat;
   padding: 4rem 0;
 }
 
@@ -107,7 +107,7 @@ h2 {
 .alto-contraste .formulario button,
 .alto-contraste .btn-primary,
 .botao-inicio {
-  background: #7CFC00;
+  background: #CB6D43;
   border: none;
   font-weight: bold;
 }
@@ -156,17 +156,17 @@ h2 {
 }
 
 .alto-contraste .nav-link {
-  color: var(--verde-grama);
+  color: var(--amarelo);
 }
 
 .alto-contraste .botao-inicio,
 .alto-contraste .formulario button,
 .alto-contraste .btn-primary {
-  background: var(--verde-grama);
+  background: var(--amarelo);
   color: var(--preto);
 }
 
-.alto-contraste #capoeira,
+.alto-contraste #tropicalia,
 .alto-contraste .fundo-galeria {
   background: none;
 }
