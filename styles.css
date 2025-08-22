@@ -20,7 +20,7 @@ section {
 }
 
 .nav-link {
-  color: #CB6D43;
+  color: #7FFF00;
   font-weight: 600;
 }
 
@@ -107,7 +107,7 @@ h2 {
 .alto-contraste .formulario button,
 .alto-contraste .btn-primary,
 .botao-inicio {
-  background: #CB6D43;
+  background: #7FFF00;
   border: none;
   font-weight: bold;
 }
