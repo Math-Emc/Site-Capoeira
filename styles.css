@@ -156,13 +156,13 @@ h2 {
 }
 
 .alto-contraste .nav-link {
-  color: var(--amarelo-canário);
+  color: var(--verde-grama);
 }
 
 .alto-contraste .botao-inicio,
 .alto-contraste .formulario button,
 .alto-contraste .btn-primary {
-  background: var(--amarelo-canário);
+  background: var(--verde-grama);
   color: var(--preto);
 }
 
