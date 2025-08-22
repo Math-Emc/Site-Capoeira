@@ -2,7 +2,7 @@
 
 :root {
   --chartreuse: #7FFF00;
-  --preto: #000;
+  --chartreuse: #7FFF00;
   --branco: #fff;
   --greenyellow: #ADFF2F;
 }
@@ -150,14 +150,14 @@ h2 {
 
 /* Alto contraste */
 .alto-contraste {
-  background: var(--preto);
+  background: var(--chartreuse);
   color: var(--branco);
 }
 
 .alto-contraste header,
 .alto-contraste footer,
 .alto-contraste .formulario {
-  background: var(--preto);
+  background: var(--chartreuse);
   color: var(--branco);
 }
 
@@ -169,7 +169,7 @@ h2 {
 .alto-contraste .formulario button,
 .alto-contraste .btn-primary {
   background: var(--greenyellow);
-  color: var(--preto);
+  color: var(--chartreuse);
 }
 
 .alto-contraste #tropicalia,
@@ -178,5 +178,5 @@ h2 {
 }
 
 .alto-contraste #galeria {
-  background: var(--preto);
+  background: var(--chartreuse);
 }
