@@ -15,6 +15,12 @@ header, .formulario {
   background: var(--branco);
 }
 
+.nav-img{
+  height: 20px;
+  width: 20px;
+  flex: grid;
+}
+
 section {
   padding-bottom: 5rem;
 }
