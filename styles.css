@@ -42,8 +42,7 @@ section {
   position: relative;
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;     
-  gap: -50px;                
+  align-items: flex-end;                    
 }
 
 .design-sem-nome {
@@ -73,14 +72,6 @@ section {
 .display-4 {
   text-shadow: -5px 5px var(--Chartreuse);
 }
-
-  .esquerda-conteudo {
-    position: relative;
-    top: 10px;
-    left: 0;
-    align-items: center;
-    text-align: center;
-  }
 
 #tropicalia {
   position: relative;
