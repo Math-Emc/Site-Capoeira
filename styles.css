@@ -110,12 +110,11 @@ h2 {
 }
 
 .formulario button,
+.alto-contraste .botao-inicio,
 .alto-contraste .formulario button,
-.alto-contraste .btn-primary,
-.botao-inicio {
-  background: #7FFF00;
-  border: none;
-  font-weight: bold;
+.alto-contraste .btn-primary {
+  background: var(--greenyellow);
+  color: #111; 
 }
 
 .form-control {
