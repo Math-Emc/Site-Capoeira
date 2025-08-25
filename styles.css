@@ -2,7 +2,6 @@
 
 :root {
   --chartreuse: #7FFF00;
-  --chartreuse: #7FFF00;
   --branco: #fff;
   --greenyellow: #ADFF2F;
 }
@@ -18,17 +17,10 @@ header, .formulario {
 .nav-img{
   height: 200px;
   width: 200px;
-  flex: grid;
 }
 
 section {
   padding-bottom: 5rem;
-}
-
-section.mb-3{
-  height: 200px;
-  width: 200px;
-  flex: wrap;
 }
 
 .nav-link {
@@ -43,23 +35,7 @@ section.mb-3{
   height: 606px;
   padding: 40px;
   margin: 0 auto;
-}
-
-.img-inicio {
-  position: absolute;
-  right: 0;
-  top: 18rem;
-  width: 45rem;
-  height: auto;
-}
-
-.esquerda-conteudo {
-  position: absolute; /* faz o conteúdo ficar sobre a paisagem */
-  top: 20px;
-  left: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  position: relative;
 }
 
 .imagem-combinada {
@@ -76,9 +52,18 @@ section.mb-3{
 .imagem-combinada .caras {
   position: absolute;
   bottom: 0;
-  right: -10%;
+  right: -5%;
   width: 300px;
   height: auto;
+}
+
+.esquerda-conteudo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .botao-inicio {
@@ -93,6 +78,26 @@ section.mb-3{
   text-shadow: -5px 5px var(--Chartreuse);
 }
 
+/* Responsividade para telas pequenas */
+@media (max-width: 768px) {
+  .imagem-combinada .paisagem {
+    width: 100%;
+    height: auto;
+  }
+  .imagem-combinada .caras {
+    width: 50%;
+    right: 0;
+  }
+  .esquerda-conteudo {
+    position: relative;
+    top: 10px;
+    left: 0;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+/* Outras seções */
 #tropicalia {
   position: relative;
   padding-top: 5rem;
