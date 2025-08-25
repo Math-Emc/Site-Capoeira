@@ -4,6 +4,7 @@
   --chartreuse: #7FFF00;
   --branco: #fff;
   --greenyellow: #ADFF2F;
+  --acessibilidade-off: #007BFF;
 }
 
 body {
@@ -57,6 +58,7 @@ section {
 .esquerda-conteudo h1 {
   font-size: 2rem; 
   line-height: 1.2; 
+  color: var(--chartreuse);
 }
 
 .botao-inicio {
@@ -65,7 +67,7 @@ section {
   border: none;
   width: 14em;
   height: 3em;
-  color: var(--branco);
+  color: #fff;
 }
 
 .display-4 {
@@ -118,19 +120,8 @@ h2 {
 .formulario button,
 .botao-inicio,
 .btn-primary {
-  background: var(--Chartreuse);
-  color: #111; 
-}
-
-/* BOTÕES DA ACESSIBILIDADE PADRÃO */
-.opcoes-acessibilidade button {
-  background-color: #007BFF; /* azul */
-  color: var(--branco);       /* letras brancas */
-  border: none;
-  margin-bottom: 5px;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  cursor: pointer;
+  background: var(--acessibilidade-off);
+  color: #fff; 
 }
 
 .form-control {
@@ -155,11 +146,14 @@ h2 {
   flex-direction: column;
 }
 
+.opcoes-acessibilidade button {
+  margin-bottom: 5px;
+}
+
 .apresenta-lista {
   display: none;
 }
 
-/* MODO ALTO CONTRASTE */
 .alto-contraste {
   background: #111;
   color: var(--branco);
@@ -182,11 +176,6 @@ h2 {
   background: var(--greenyellow); 
   color: var(--branco);           
   border: none;                    
-}
-
-.alto-contraste .opcoes-acessibilidade button {
-  background-color: var(--greenyellow);
-  color: var(--branco);
 }
 
 .alto-contraste #tropicalia,
