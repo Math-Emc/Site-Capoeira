@@ -148,14 +148,14 @@ h2 {
 }
 
 .alto-contraste {
-  background: var(--chartreuse);
+  background: #111;
   color: var(--branco);
 }
 
 .alto-contraste header,
 .alto-contraste footer,
 .alto-contraste .formulario {
-  background: var(--chartreuse);
+  background: #111; 
   color: var(--branco);
 }
 
