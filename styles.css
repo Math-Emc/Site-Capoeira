@@ -46,16 +46,11 @@ section {
   gap: -50px;                
 }
 
-.imagem-combinada .paisagem {
-  width: 600px;  
+.design-sem-nome {
+  width: 600px;   /* ajuste do tamanho */
   height: auto;
-}
-
-.imagem-combinada .caras {
-  width: 350px;  
-  height: auto;
-  position: relative;
-  bottom: 0;
+  display: block;
+  margin-left: auto;  /* alinha à direita */
 }
 
 .esquerda-conteudo {
@@ -79,15 +74,6 @@ section {
   text-shadow: -5px 5px var(--Chartreuse);
 }
 
-@media (max-width: 768px) {
-  .imagem-combinada .paisagem {
-    width: 100%;
-    height: auto;
-  }
-  .imagem-combinada .caras {
-    width: 50%;
-    right: 0;
-  }
   .esquerda-conteudo {
     position: relative;
     top: 10px;
@@ -95,7 +81,6 @@ section {
     align-items: center;
     text-align: center;
   }
-}
 
 #tropicalia {
   position: relative;
