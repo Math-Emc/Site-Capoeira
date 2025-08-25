@@ -60,6 +60,23 @@ section.mb-3{
   gap: 1rem;
 }
 
+.imagem-combinada {
+  position: relative;
+  display: inline-block;
+}
+
+.imagem-combinada .paisagem {
+  display: block;
+  width: 500px;
+  height: auto;
+}
+
+.imagem-combinada .caras {
+  position: absolute;
+  bottom: 0;   /* gruda na parte de baixo da paisagem */
+  right: -50px; /* desloca um pouco para a direita, fora da paisagem */
+}
+
 .botao-inicio {
   background: var(--Chartreuse);
   border-radius: 30px;
