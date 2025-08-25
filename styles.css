@@ -113,7 +113,7 @@ h2 {
 .alto-contraste .botao-inicio,
 .alto-contraste .formulario button,
 .alto-contraste .btn-primary {
-  background: var(--greenyellow);
+  background: var(--white);
   color: #111; 
 }
 
