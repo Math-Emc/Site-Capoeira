@@ -54,6 +54,13 @@ section {
   gap: 1rem;
 }
 
+/* Ajuste do tamanho do h1 sobre a imagem */
+.esquerda-conteudo h1 {
+  font-size: 2rem; 
+  line-height: 1.2; 
+}
+
+
 .botao-inicio {
   background: var(--Chartreuse);
   border-radius: 30px;
