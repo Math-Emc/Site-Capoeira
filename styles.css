@@ -29,7 +29,7 @@ section {
 }
 
 .inicio-fundo {
-  position: relative; /* já está correto */
+  position: relative; 
 }
 
 .imagem-combinada {
