@@ -170,8 +170,9 @@ h2 {
 .alto-contraste .botao-inicio,
 .alto-contraste .formulario button,
 .alto-contraste .btn-primary {
-  background: var(--white);
-  color: var(--branco);  
+  background: var(--greenyellow); 
+  color: var(--branco);           
+  border: none;                    
 }
 
 .alto-contraste #tropicalia,
