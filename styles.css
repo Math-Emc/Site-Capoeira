@@ -54,12 +54,10 @@ section {
   gap: 1rem;
 }
 
-/* Ajuste do tamanho do h1 sobre a imagem */
 .esquerda-conteudo h1 {
   font-size: 2rem; 
   line-height: 1.2; 
 }
-
 
 .botao-inicio {
   background: var(--Chartreuse);
@@ -117,10 +115,9 @@ h2 {
 }
 
 .formulario button,
-.alto-contraste .botao-inicio,
-.alto-contraste .formulario button,
-.alto-contraste .btn-primary {
-  background: var(--white);
+.botao-inicio,
+.btn-primary {
+  background: var(--Chartreuse);
   color: #111; 
 }
 
@@ -163,7 +160,7 @@ h2 {
 .alto-contraste footer,
 .alto-contraste .formulario {
   background: #111; 
-  color: var(--chartreuse);
+  color: var(--branco);
 }
 
 .alto-contraste .nav-link {
@@ -174,7 +171,7 @@ h2 {
 .alto-contraste .formulario button,
 .alto-contraste .btn-primary {
   background: var(--white);
-  color: var(--chartreuse);
+  color: var(--branco);  
 }
 
 .alto-contraste #tropicalia,
