@@ -29,6 +29,10 @@ section {
   font-weight: 600;
 }
 
+.título-cinza {
+  color: #555;
+}
+
 .inicio-fundo {
   position: relative; 
 }
