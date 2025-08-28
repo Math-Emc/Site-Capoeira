@@ -75,10 +75,10 @@ section {
 }
 
 .display-4 {
-  text-shadow: -5px 5px var(--chartreuse);
+  text-shadow: 2px 2px 4px var(--chartreuse);
 }
 
-#tropicalia {
+#capoeira {
   position: relative;
   padding-top: 5rem;
   margin: 3rem 0;
@@ -87,7 +87,7 @@ section {
   background-size: 180px;
 }
 
-#tropicalia .container {
+#capoeira .container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -183,7 +183,7 @@ h2 {
   border: none;
 }
 
-.alto-contraste #tropicalia,
+.alto-contraste #capoeira,
 .alto-contraste .fundo-galeria {
   background: none;
 }
