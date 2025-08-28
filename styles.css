@@ -29,10 +29,6 @@ section {
   font-weight: 600;
 }
 
-.titulo-cinza {
-  color: #555;
-}
-
 .inicio-fundo {
   position: relative; 
 }
@@ -59,10 +55,10 @@ section {
   gap: 1rem;
 }
 
-.esquerda-conteudo h1 {
+.esquerda-conteudo .titulo-cinza {
   font-size: 2rem; 
   line-height: 1.2;
-  color: var(--#555);
+  color: #555
 }
 
 .botao-inicio {
