@@ -62,7 +62,7 @@ section {
 .esquerda-conteudo h1 {
   font-size: 2rem;
   line-height: 1.2;
-  color: rgb(73, 156, 34);
+  color: rgb(103, 230, 45);
 }
 
 .botao-inicio {
@@ -79,7 +79,7 @@ section {
   font-size: 3rem;
   font-weight: 700;
   line-height: 1.2;
-  color: #d3d3d3;
+  color: #0db107;
   text-shadow: 2px 2px 4px var(--chartreuse);
 }
 
