@@ -196,3 +196,24 @@ h2 {
 .alto-contraste #galeria {
   background: var(--chartreuse);
 }
+
+.galeria-texto-sobre-imagem {
+  position: relative;
+  display: inline-block;
+}
+
+.galeria-texto-sobre-imagem img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.texto-sobre-imagem {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: var(--chartreuse);
+  background-color: rgba(0,0,0,0.3);
+  padding: 10px;
+  border-radius: 5px;
+}
