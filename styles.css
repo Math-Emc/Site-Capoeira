@@ -61,8 +61,7 @@ section {
 
 .esquerda-conteudo h1 {
   font-size: 2rem; 
-  line-height: 1.2; 
-  color: var(--chartreuse);
+  line-height: 1.2;
 }
 
 .botao-inicio {
