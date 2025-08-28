@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Lemon&display=swap');
 
 :root {
-  --verde-principal: #4CAF50; /* verde principal, para títulos e botões */
-  --verde-claro: #81C784;     /* verde claro para sombra ou hover */
+  --verde-principal: #4CAF50;
+  --verde-claro: #81C784;     
   --branco: #fff;
-  --cinza-claro: #d3d3d3;     /* título principal */
+  --cinza-claro: #d3d3d3;     
   --acessibilidade-off: #007BFF;
 }
 
