@@ -202,19 +202,15 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
+.direita-texto {
+  text-align: right;
+  margin-bottom: 1.5rem;
+}
+
 .esquerda-texto {
   text-align: left;
 }
 
-.direita-texto {
-  text-align: right;
-}
-
 .container-rodas {
   margin-bottom: 3rem;
-}
-
-.direita-texto {
-  text-align: right;
-  margin-bottom: 1.5rem;
 }
