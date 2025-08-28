@@ -208,3 +208,7 @@ h2 {
 .direita-texto {
   text-align: right;
 }
+
+.container-rodas {
+  margin-bottom: 3rem;
+}
