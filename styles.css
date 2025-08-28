@@ -58,7 +58,8 @@ section {
 .esquerda-conteudo .titulo-cinza {
   font-size: 2rem; 
   line-height: 1.2;
-  color: #555;
+  color: #555; 
+}
 
 .botao-inicio {
   background: var(--Chartreuse);
