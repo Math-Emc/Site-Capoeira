@@ -197,40 +197,14 @@ h2 {
   background: var(--chartreuse);
 }
 
-.galeria-texto-sobre-imagem {
-  position: relative;
-  display: inline-block;
-  margin: 1rem;
-}
-
-.texto-sobre-imagem {
-  position: absolute;
-  top: 0;
-  padding: 1rem;
-  color: #fff;
-  background: rgba(0, 0, 0, 0.4);
-  width: 90%;
-  border-radius: 5px;
+.texto-acima {
+  margin-bottom: 0.5rem;
 }
 
 .esquerda-texto {
-  left: 0; 
   text-align: left;
 }
 
 .direita-texto {
-  right: 0; 
   text-align: right;
-}
-
-.texto-sobre-imagem h2 {
-  font-family: 'Lemon', serif;
-  font-size: 1.8rem;
-  margin-bottom: 0.5rem;
-}
-
-.texto-sobre-imagem p {
-  font-size: 1rem;
-  line-height: 1.3;
-  margin: 0;
 }
