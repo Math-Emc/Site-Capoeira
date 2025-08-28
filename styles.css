@@ -58,8 +58,7 @@ section {
 .esquerda-conteudo .titulo-cinza {
   font-size: 2rem; 
   line-height: 1.2;
-  color: #555
-}
+  color: #555;
 
 .botao-inicio {
   background: var(--Chartreuse);
@@ -183,6 +182,6 @@ h2 {
   background: none;
 }
 
-.alto-contraste #galeria {
+.alto-contraste #galeria {      
   background: var(--chartreuse);
 }
