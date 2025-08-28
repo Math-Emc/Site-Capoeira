@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Lemon&display=swap');
 
 :root {
-  --chartreuse: #7FFF00;
+  --laranja: #FF862A;
+  --preto: #000;
   --branco: #fff;
-  --greenyellow: #ADFF2F;
-  --acessibilidade-off: #007BFF;
+  --amarelo: #ffd700;
 }
 
 body {
@@ -15,75 +15,56 @@ header, .formulario {
   background: var(--branco);
 }
 
-.nav-img {
-  height: 200px;
-  width: 200px;
-}
-
 section {
   padding-bottom: 5rem;
 }
 
 .nav-link {
-  color: #7FFF00;
+  color: #CB6D43;
   font-weight: 600;
 }
 
-.título-cinza {
-  color: #555;
-}
-
 .inicio-fundo {
-  position: relative;
+  background: url('img/4965007.jpg') right/cover no-repeat;
+  border-radius: 80px;
+  width: 100%;
+  height: 606px;
+  padding: 40px;
+  margin: 0 auto;
 }
 
-.imagem-combinada {
-  position: relative;
-}
-
-.design-sem-nome {
-  width: 600px;
+.img-inicio {
+  position: absolute;
+  right: 0;
+  top: 18rem;
+  width: 45rem;
   height: auto;
-  display: block;
-  margin-left: auto;
 }
 
 .esquerda-conteudo {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  color: greenyellow;
-  z-index: 10;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 1rem;
 }
 
-.esquerda-conteudo h1 {
-  font-size: 2rem;
-  line-height: 1.2;
-  color: var(--chartreuse);
-}
-
 .botao-inicio {
-  background: var(--chartreuse);
+  background: var(--laranja);
   border-radius: 30px;
   border: none;
   width: 14em;
   height: 3em;
-  color: #fff;
 }
 
 .display-4 {
-  text-shadow: -5px 5px var(--chartreuse);
+  text-shadow: -5px 5px var(--laranja);
 }
 
 #tropicalia {
   position: relative;
   padding-top: 5rem;
   margin: 3rem 0;
-  background: url('img/flor.png') top right no-repeat,
-  url('img/flor-esquerda.png') bottom left no-repeat;
+  background: url('img/flor.png') top right no-repeat, url('img/flor-esquerda.png') bottom left no-repeat;
   background-size: 180px;
 }
 
@@ -98,7 +79,7 @@ section {
 h2 {
   font-family: 'Lemon', serif;
   font-size: 2.5em;
-  color: var(--chartreuse);
+  color: var(--laranja);
 }
 
 #galeria {
@@ -123,10 +104,12 @@ h2 {
 }
 
 .formulario button,
-.botao-inicio,
-.btn-primary {
-  background: var(--acessibilidade-off);
-  color: #fff;
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary,
+.botao-inicio {
+  background: #CB6D43;
+  border: none;
+  font-weight: bold;
 }
 
 .form-control {
@@ -159,28 +142,28 @@ h2 {
   display: none;
 }
 
+/* Alto contraste */
 .alto-contraste {
-  background: #111;
+  background: var(--preto);
   color: var(--branco);
 }
 
 .alto-contraste header,
 .alto-contraste footer,
 .alto-contraste .formulario {
-  background: #111;
+  background: var(--preto);
   color: var(--branco);
 }
 
 .alto-contraste .nav-link {
-  color: var(--greenyellow);
+  color: var(--amarelo);
 }
 
 .alto-contraste .botao-inicio,
 .alto-contraste .formulario button,
 .alto-contraste .btn-primary {
-  background: var(--greenyellow);
-  color: var(--branco);
-  border: none;
+  background: var(--amarelo);
+  color: var(--preto);
 }
 
 .alto-contraste #tropicalia,
@@ -189,5 +172,5 @@ h2 {
 }
 
 .alto-contraste #galeria {
-  background: var(--chartreuse);
+  background: var(--preto);
 }
