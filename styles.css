@@ -75,6 +75,11 @@ section {
 }
 
 .display-4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #d3d3d3;
   text-shadow: 2px 2px 4px var(--chartreuse);
 }
 
