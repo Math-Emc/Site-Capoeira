@@ -213,3 +213,8 @@ h2 {
 .container-rodas {
   margin-bottom: 3rem;
 }
+
+.direita-texto {
+  text-align: right;
+  margin-bottom: 1.5rem;
+}
