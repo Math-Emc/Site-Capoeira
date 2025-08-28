@@ -198,6 +198,10 @@ h2 {
   background: var(--verde-principal);
 }
 
+.alto-contraste #galeria h2 {
+  color: #000;
+}
+
 .texto-acima {
   margin-bottom: 0.5rem;
 }
