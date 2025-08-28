@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Lemon&display=swap');
 
 :root {
-  --laranja: #FF862A;
-  --preto: #000;
+  --chartreuse: #7FFF00;
   --branco: #fff;
-  --amarelo: #ffd700;
+  --greenyellow: #ADFF2F;
+  --acessibilidade-off: #007BFF;
 }
 
 body {
@@ -15,56 +15,75 @@ header, .formulario {
   background: var(--branco);
 }
 
+.nav-img {
+  height: 200px;
+  width: 200px;
+}
+
 section {
   padding-bottom: 5rem;
 }
 
 .nav-link {
-  color: #CB6D43;
+  color: #7FFF00;
   font-weight: 600;
 }
 
-.inicio-fundo {
-  background: url('img/4965007.jpg') right/cover no-repeat;
-  border-radius: 80px;
-  width: 100%;
-  height: 606px;
-  padding: 40px;
-  margin: 0 auto;
+.título-cinza {
+  color: #555;
 }
 
-.img-inicio {
-  position: absolute;
-  right: 0;
-  top: 18rem;
-  width: 45rem;
+.inicio-fundo {
+  position: relative;
+}
+
+.imagem-combinada {
+  position: relative;
+}
+
+.design-sem-nome {
+  width: 600px;
   height: auto;
+  display: block;
+  margin-left: auto;
 }
 
 .esquerda-conteudo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: greenyellow;
+  z-index: 10;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 1rem;
 }
 
+.esquerda-conteudo h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  color: var(--chartreuse);
+}
+
 .botao-inicio {
-  background: var(--laranja);
+  background: var(--chartreuse);
   border-radius: 30px;
   border: none;
   width: 14em;
   height: 3em;
+  color: #fff;
 }
 
 .display-4 {
-  text-shadow: -5px 5px var(--laranja);
+  text-shadow: -5px 5px var(--chartreuse);
 }
 
 #tropicalia {
   position: relative;
   padding-top: 5rem;
   margin: 3rem 0;
-  background: url('img/flor.png') top right no-repeat, url('img/flor-esquerda.png') bottom left no-repeat;
+  background: url('img/flor.png') top right no-repeat,
+  url('img/flor-esquerda.png') bottom left no-repeat;
   background-size: 180px;
 }
 
@@ -79,7 +98,7 @@ section {
 h2 {
   font-family: 'Lemon', serif;
   font-size: 2.5em;
-  color: var(--laranja);
+  color: var(--chartreuse);
 }
 
 #galeria {
@@ -104,12 +123,10 @@ h2 {
 }
 
 .formulario button,
-.alto-contraste .formulario button,
-.alto-contraste .btn-primary,
-.botao-inicio {
-  background: #CB6D43;
-  border: none;
-  font-weight: bold;
+.botao-inicio,
+.btn-primary {
+  background: var(--acessibilidade-off);
+  color: #fff;
 }
 
 .form-control {
@@ -142,28 +159,28 @@ h2 {
   display: none;
 }
 
-/* Alto contraste */
 .alto-contraste {
-  background: var(--preto);
+  background: #111;
   color: var(--branco);
 }
 
 .alto-contraste header,
 .alto-contraste footer,
 .alto-contraste .formulario {
-  background: var(--preto);
+  background: #111;
   color: var(--branco);
 }
 
 .alto-contraste .nav-link {
-  color: var(--amarelo);
+  color: var(--greenyellow);
 }
 
 .alto-contraste .botao-inicio,
 .alto-contraste .formulario button,
 .alto-contraste .btn-primary {
-  background: var(--amarelo);
-  color: var(--preto);
+  background: var(--greenyellow);
+  color: var(--branco);
+  border: none;
 }
 
 .alto-contraste #tropicalia,
@@ -172,5 +189,5 @@ h2 {
 }
 
 .alto-contraste #galeria {
-  background: var(--preto);
+  background: var(--chartreuse);
 }
